@@ -194,5 +194,34 @@ public class Main {
         for (Integer i : result14) {
             System.out.print(i + " ");
         }
+
+        MorrisTraversal mt = new MorrisTraversal();
+
+        System.out.println();
+        System.out.println("Morris Traversal inorder");
+
+        List<Integer> result15 = mt.inorder(node1);
+
+        for (Integer i : result15) {
+            System.out.print(i + " ");
+        }
+
+        System.out.println();
+        System.out.println("Morris Traversal preorder");
+
+        List<Integer> result16 = mt.preorder(node1);
+
+        for (Integer i : result16) {
+            System.out.print(i + " ");
+        }
+
+        System.out.println();
+        System.out.println("Morris Traversal postorder");
+
+        List<Integer> result17 = mt.postorder(node1);
+
+        for (Integer i : result17) {
+            System.out.print(i + " ");
+        }
     }
 }
